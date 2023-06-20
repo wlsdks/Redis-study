@@ -1,6 +1,8 @@
 spring:
+  cache:
+    type: redis # 캐시로 redis를 사용하겠다고 설정한다.
   session:
-    storage-type: redis #이렇게 작성하면 세션이 redis에 저장된다.
+    storage-type: redis # 이렇게 작성하면 세션이 redis에 저장된다.
   redis:
     host: localhost
     port: 6379

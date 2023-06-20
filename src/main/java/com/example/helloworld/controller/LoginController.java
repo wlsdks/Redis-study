@@ -14,14 +14,14 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login(HttpSession session, @RequestParam String name) {
-        sessionMap.put(session.getId(), name);
+        session.setAttribute("name", name);
 
         return "saved.";
     }
 
     @GetMapping("/myName")
     public String myName(HttpSession session) {
-        String myName = sessionMap.get(session.getId());
+        String myName = (String) session.getAttribute("name");
 
         return myName;
     }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.helloworld.HelloworldApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-20T14:24:25" hostname="choejin-an-ui-MacBookPro.local" time="0.41">
+<testsuite name="com.example.helloworld.HelloworldApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-20T14:44:57" hostname="choejin-an-ui-MacBookPro.local" time="0.372">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.helloworld.HelloworldApplicationTests" time="0.41"/>
-  <system-out><![CDATA[23:24:24.481 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.helloworld.HelloworldApplicationTests]: HelloworldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:24:24.517 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.helloworld.HelloworldApplication for test class com.example.helloworld.HelloworldApplicationTests
+  <testcase name="contextLoads()" classname="com.example.helloworld.HelloworldApplicationTests" time="0.372"/>
+  <system-out><![CDATA[23:44:56.495 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.helloworld.HelloworldApplicationTests]: HelloworldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:44:56.531 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.helloworld.HelloworldApplication for test class com.example.helloworld.HelloworldApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,12 +13,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.0)
 
-2023-06-20T23:24:24.671+09:00  INFO 80674 --- [    Test worker] c.e.h.HelloworldApplicationTests         : Starting HelloworldApplicationTests using Java 17.0.7 with PID 80674 (started by jinan in /Users/jinan/study/Spring/Redis-study)
-2023-06-20T23:24:24.672+09:00  INFO 80674 --- [    Test worker] c.e.h.HelloworldApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2023-06-20T23:24:24.876+09:00  INFO 80674 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-06-20T23:24:24.877+09:00  INFO 80674 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-06-20T23:24:24.889+09:00  INFO 80674 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
-2023-06-20T23:24:25.299+09:00  INFO 80674 --- [    Test worker] c.e.h.HelloworldApplicationTests         : Started HelloworldApplicationTests in 0.734 seconds (process running for 1.139)
+2023-06-20T23:44:56.694+09:00  INFO 81837 --- [    Test worker] c.e.h.HelloworldApplicationTests         : Starting HelloworldApplicationTests using Java 17.0.7 with PID 81837 (started by jinan in /Users/jinan/study/Spring/Redis-study)
+2023-06-20T23:44:56.694+09:00  INFO 81837 --- [    Test worker] c.e.h.HelloworldApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T23:44:56.907+09:00  INFO 81837 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-20T23:44:56.908+09:00  INFO 81837 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-20T23:44:56.921+09:00  INFO 81837 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-06-20T23:44:57.346+09:00  INFO 81837 --- [    Test worker] c.e.h.HelloworldApplicationTests         : Started HelloworldApplicationTests in 0.766 seconds (process running for 1.177)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
